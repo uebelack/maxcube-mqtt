@@ -5,14 +5,17 @@ Control your eQ-3/ELV MAX! Cube with MQTT
 
 
 Installation:
+-------------------
 
     pip install maxcube-mqtt
 
 Configuration:
+-------------------
 
 Needs a json configuration file as follows (don't forget to change ip's and credentials ;-)):
 
-.. code-block:: javascript
+.. code:: json
+
     {
         "cube_host": "192.168.0.20",
         "cube_port": "62910",
@@ -25,6 +28,8 @@ Needs a json configuration file as follows (don't forget to change ip's and cred
     }
 
 
+
 Start:
+-------------------
 
     maxcube-mqtt config.json
