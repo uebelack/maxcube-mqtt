@@ -10,7 +10,7 @@ with open('LICENSE') as f:
 
 setup(
     name='maxcube-mqtt',
-    version='0.0.1',
+    version='0.0.2',
     description='Control your eQ-3/ELV MAX! Cube with MQTT',
     long_description=readme,
     author='David Uebelacker',
@@ -18,6 +18,6 @@ setup(
     url='https://github.com/goodfield/maxcube-mqtt.git',
     license=license,
     packages=['maxcubemqtt'],
-    install_requires=['maxcube-api'],
+    install_requires=['maxcube-api', 'paho-mqtt'],
     scripts=['bin/maxcube-mqtt']
 )
