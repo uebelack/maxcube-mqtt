@@ -12,7 +12,7 @@ Configuration:
 
 Needs a json configuration file as follows (don't forget to change ip's and credentials ;-)):
 
-    .. code:: json
+.. code:: json
     {
         "cube_host": "192.168.0.20",
         "cube_port": "62910",
