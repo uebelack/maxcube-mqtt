@@ -17,7 +17,7 @@ setup(
     author_email='david@uebelacker.ch',
     url='https://github.com/goodfield/maxcube-mqtt.git',
     license=license,
-    packages=['maxcube-mqtt'],
+    packages=['maxcubemqtt'],
     install_requires=['maxcube-api'],
     scripts=['bin/maxcube-mqtt']
 )
